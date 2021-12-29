@@ -1,2 +1,4 @@
-package com.company;public class RegisterController {
+package com.company;
+
+public class RegisterController {
 }
