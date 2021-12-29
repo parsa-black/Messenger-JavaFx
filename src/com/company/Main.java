@@ -12,13 +12,6 @@ public class Main extends Application {
 
     @Override
     public void start(Stage stage) throws  Exception {
-
-        Button button = new Button("this is bad");
-        AnchorPane pane = new AnchorPane();
-        pane.getChildren().addAll(button);
-        Scene scene = new Scene(pane);
-        stage.setScene(scene);
-        stage.show();
-
+        //write code form here
     }
 }
