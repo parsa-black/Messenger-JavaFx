@@ -9,7 +9,7 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="571.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #cdd0d4;">
          <children>
@@ -30,9 +30,9 @@
             </Label>
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="400.0" prefWidth="390.0" style="-fx-background-color: #f5f4f2;">
+      <AnchorPane prefHeight="400.0" prefWidth="370.0" style="-fx-background-color: #f5f4f2;">
          <children>
-            <ImageView fitHeight="105.0" fitWidth="115.0" layoutX="141.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="105.0" fitWidth="115.0" layoutX="128.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../images/lock.png" />
                </image>
@@ -47,26 +47,26 @@
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Label>
-            <TextField layoutX="112.0" layoutY="154.0" prefHeight="34.0" prefWidth="185.0" promptText="Username">
+            <TextField id="tf_username" layoutX="128.0" layoutY="154.0" prefHeight="34.0" prefWidth="185.0" promptText="Username">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font></TextField>
-            <TextField layoutX="112.0" layoutY="200.0" prefHeight="34.0" prefWidth="185.0" promptText="Password">
+            <TextField id="tf_password" layoutX="128.0" layoutY="200.0" prefHeight="34.0" prefWidth="185.0" promptText="Password">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </TextField>
-            <Button layoutX="112.0" layoutY="265.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="185.0" style="-fx-background-color: #cdd0d4;" text="LogIn">
+            <Button id="button_login" layoutX="88.0" layoutY="261.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="204.0" style="-fx-background-color: #cdd0d4;" text="LogIn">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Label layoutX="112.0" layoutY="334.0" prefHeight="28.0" prefWidth="95.0" text="Not a user?">
+            <Label layoutX="88.0" layoutY="351.0" prefHeight="28.0" prefWidth="95.0" text="Not a user?">
                <font>
                   <Font name="Arial Rounded MT Bold" size="14.0" />
                </font>
             </Label>
-            <Button layoutX="205.0" layoutY="331.0" mnemonicParsing="false" style="-fx-background-color: #f5f4f2;" text="Sign Up!" textFill="#2323c3" underline="true">
+            <Button id="button_singup" layoutX="180.0" layoutY="348.0" mnemonicParsing="false" style="-fx-background-color: #f5f4f2;" text="Sign Up!" textFill="#2323c3" underline="true">
                <font>
                   <Font name="Californian FB" size="17.0" />
                </font>
