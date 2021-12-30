@@ -32,41 +32,31 @@
       </AnchorPane>
       <AnchorPane prefHeight="400.0" prefWidth="370.0" style="-fx-background-color: #f5f4f2;">
          <children>
-            <ImageView fitHeight="105.0" fitWidth="115.0" layoutX="128.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+            <ImageView fitHeight="105.0" fitWidth="115.0" layoutX="130.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                <image>
                   <Image url="@../../../../images/lock.png" />
                </image>
             </ImageView>
-            <Label layoutX="14.0" layoutY="157.0" prefHeight="28.0" prefWidth="95.0" text="Username">
-               <font>
-                  <Font name="Arial Rounded MT Bold" size="18.0" />
-               </font>
-            </Label>
-            <Label layoutX="14.0" layoutY="206.0" prefHeight="22.0" prefWidth="95.0" text="Password">
-               <font>
-                  <Font name="Arial Rounded MT Bold" size="18.0" />
-               </font>
-            </Label>
-            <TextField id="tf_username" layoutX="128.0" layoutY="154.0" prefHeight="34.0" prefWidth="185.0" promptText="Username">
+            <TextField id="tf_username" layoutX="58.0" layoutY="154.0" prefHeight="34.0" prefWidth="248.0" promptText="Username">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font></TextField>
-            <TextField id="tf_password" layoutX="128.0" layoutY="200.0" prefHeight="34.0" prefWidth="185.0" promptText="Password">
+            <TextField id="tf_password" layoutX="58.0" layoutY="200.0" prefHeight="34.0" prefWidth="248.0" promptText="Password">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </TextField>
-            <Button id="button_login" layoutX="88.0" layoutY="261.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="204.0" style="-fx-background-color: #cdd0d4;" text="LogIn">
+            <Button id="button_login" layoutX="89.0" layoutY="250.0" mnemonicParsing="false" prefHeight="41.0" prefWidth="187.0" style="-fx-background-color: #cdd0d4;" text="LogIn">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
             </Button>
-            <Label layoutX="88.0" layoutY="351.0" prefHeight="28.0" prefWidth="95.0" text="Not a user?">
+            <Label layoutX="89.0" layoutY="348.0" prefHeight="28.0" prefWidth="105.0" text="Not a user?">
                <font>
-                  <Font name="Arial Rounded MT Bold" size="14.0" />
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
             </Label>
-            <Button id="button_singup" layoutX="180.0" layoutY="348.0" mnemonicParsing="false" style="-fx-background-color: #f5f4f2;" text="Sign Up!" textFill="#2323c3" underline="true">
+            <Button id="button_singup" layoutX="182.0" layoutY="345.0" mnemonicParsing="false" style="-fx-background-color: #f5f4f2;" text="Sign Up!" textFill="#2323c3" underline="true">
                <font>
                   <Font name="Californian FB" size="17.0" />
                </font>
