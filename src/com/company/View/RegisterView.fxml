@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
 <?import javafx.scene.image.Image?>
 <?import javafx.scene.image.ImageView?>
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
-
 
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
@@ -29,6 +29,54 @@
             </ImageView>
          </children>
       </AnchorPane>
-      <AnchorPane prefHeight="400.0" prefWidth="370.0" style="-fx-background-color: #f5f4f2;" />
+      <AnchorPane prefHeight="400.0" prefWidth="370.0" style="-fx-background-color: #f5f4f2;">
+         <children>
+            <Label layoutX="15.0" layoutY="68.0" text="Name">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="117.0" text="LastName">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="168.0" text="PhoneNumber">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <Label layoutX="15.0" layoutY="216.0" text="Password">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Label>
+            <TextField layoutX="142.0" layoutY="63.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="142.0" layoutY="112.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="142.0" layoutY="163.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </TextField>
+            <TextField layoutX="142.0" layoutY="211.0">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </TextField>
+            <Label layoutX="15.0" layoutY="14.0" text="Registering...">
+               <font>
+                  <Font name="Berlin Sans FB" size="25.0" />
+               </font>
+            </Label>
+         </children>
+      </AnchorPane>
    </children>
 </HBox>
