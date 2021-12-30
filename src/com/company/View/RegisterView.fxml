@@ -32,22 +32,22 @@
       </AnchorPane>
       <AnchorPane prefHeight="400.0" prefWidth="370.0" style="-fx-background-color: #f5f4f2;">
          <children>
-            <TextField layoutX="63.0" layoutY="67.0" prefHeight="30.0" prefWidth="236.0" promptText="Name">
+            <TextField layoutX="41.0" layoutY="67.0" prefHeight="30.0" prefWidth="280.0" promptText="Name">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
             </TextField>
-            <TextField layoutX="63.0" layoutY="122.0" prefHeight="30.0" prefWidth="236.0" promptText="LastName">
+            <TextField layoutX="43.0" layoutY="122.0" prefHeight="30.0" prefWidth="280.0" promptText="LastName">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
             </TextField>
-            <TextField layoutX="64.0" layoutY="176.0" prefHeight="30.0" prefWidth="236.0" promptText="PhoneNumber">
+            <TextField layoutX="44.0" layoutY="176.0" prefHeight="30.0" prefWidth="280.0" promptText="PhoneNumber">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
             </TextField>
-            <TextField layoutX="64.0" layoutY="232.0" prefHeight="30.0" prefWidth="236.0" promptText="Password">
+            <TextField layoutX="44.0" layoutY="232.0" prefHeight="30.0" prefWidth="280.0" promptText="Password">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
@@ -57,9 +57,19 @@
                   <Font name="Berlin Sans FB" size="25.0" />
                </font>
             </Label>
-            <Button layoutX="102.0" layoutY="292.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="171.0" style="-fx-background-color: #cdd0d4;" text="SingUp">
+            <Button layoutX="78.0" layoutY="292.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="228.0" style="-fx-background-color: #cdd0d4;" text="SingUp">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </Button>
+            <Label layoutX="77.0" layoutY="363.0" text="Already a mamber ?">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="14.0" />
+               </font>
+            </Label>
+            <Button layoutX="243.0" layoutY="355.0" mnemonicParsing="false" style="-fx-background-color: #f5f4f2;" text="LogIn" textFill="#2323c3" underline="true">
+               <font>
+                  <Font name="Californian FB" size="17.0" />
                </font>
             </Button>
          </children>
