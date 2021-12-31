@@ -23,7 +23,6 @@ public class RegisterController  implements Initializable {
 
         button_cancel.setOnAction(e -> closeStage());
 
-
     }
 
     private void closeStage(){
