@@ -5,18 +5,18 @@
 <?import javafx.scene.layout.*?>
 <?import javafx.scene.text.*?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="570.0" xmlns="http://javafx.com/javafx/11.0.2" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Controller.LoginController">
    <children>
       <AnchorPane prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #cdd0d4;">
          <children>
             <ImageView fitHeight="68.0" fitWidth="69.0" layoutX="73.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../images/messenger.png" />
+                  <Image url="@images/messenger.png" />
                </image>
             </ImageView>
             <ImageView fitHeight="245.0" fitWidth="204.0" layoutX="5.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../images/chat.png" />
+                  <Image url="@images/chat.png" />
                </image>
             </ImageView>
             <Label layoutX="56.0" layoutY="147.0" prefHeight="28.0" prefWidth="102.0" text="Messenger">
@@ -30,7 +30,7 @@
          <children>
             <ImageView fitHeight="105.0" fitWidth="115.0" layoutX="130.0" layoutY="25.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../images/lock.png" />
+                  <Image url="@images/lock.png" />
                </image>
             </ImageView>
             <TextField id="tf_username" fx:id="tf_username" layoutX="58.0" layoutY="154.0" prefHeight="34.0" prefWidth="248.0" promptText="Username">
