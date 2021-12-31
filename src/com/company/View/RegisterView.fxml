@@ -8,9 +8,9 @@
 <?import javafx.scene.layout.HBox?>
 <?import javafx.scene.text.Font?>
 
-<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="486.0" prefWidth="362.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+<HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="362.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
    <children>
-      <AnchorPane prefHeight="535.0" prefWidth="362.0" style="-fx-background-color: #f5f4f2;">
+      <AnchorPane prefHeight="447.0" prefWidth="362.0" style="-fx-background-color: #f5f4f2;">
          <children>
             <TextField fx:id="tf_name" layoutX="44.0" layoutY="140.0" prefHeight="30.0" prefWidth="280.0" promptText="Name">
                <font>
@@ -32,7 +32,7 @@
                   <Font name="Berlin Sans FB" size="25.0" />
                </font>
             </Label>
-            <Button fx:id="button_sing_up" layoutX="67.0" layoutY="313.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="228.0" style="-fx-background-color: #cdd0d4;" text="SingUp">
+            <Button fx:id="button_sing_up" layoutX="181.0" layoutY="323.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="137.0" style="-fx-background-color: #cdd0d4;" text="SingUp">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
@@ -40,12 +40,12 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Label layoutX="67.0" layoutY="442.0" text="Already a member ?">
+            <Label layoutX="51.0" layoutY="384.0" text="Already a member ?">
                <font>
                   <Font name="Arial Rounded MT Bold" size="14.0" />
                </font>
             </Label>
-            <Button fx:id="button_log_in" layoutX="232.0" layoutY="434.0" mnemonicParsing="false" style="-fx-background-color: #f5f4f2;" text="LogIn" textFill="#2323c3" underline="true">
+            <Button fx:id="button_log_in" layoutX="231.0" layoutY="376.0" mnemonicParsing="false" style="-fx-background-color: #f5f4f2;" text="LogIn" textFill="#2323c3" underline="true">
                <font>
                   <Font name="Californian FB" size="17.0" />
                </font>
@@ -68,7 +68,7 @@
                   <Font name="Berlin Sans FB" size="25.0" />
                </font>
             </Label>
-            <Button fx:id="button_sing_up1" layoutX="153.0" layoutY="372.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="63.0" style="-fx-background-color: #cdd0d4;" text="Exit">
+            <Button fx:id="button_sing_up1" layoutX="80.0" layoutY="323.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="78.0" style="-fx-background-color: #cdd0d4;" text="Cancel">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
