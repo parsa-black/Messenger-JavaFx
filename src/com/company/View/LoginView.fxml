@@ -68,6 +68,11 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
+            <Label fx:id="checkLBL" alignment="CENTER" layoutX="-2.0" layoutY="307.0" prefHeight="28.0" prefWidth="361.0" textFill="RED">
+               <font>
+                  <Font name="Berlin Sans FB" size="23.0" />
+               </font>
+            </Label>
          </children></AnchorPane>
    </children>
 </HBox>
