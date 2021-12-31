@@ -1,17 +1,19 @@
 package com.company;
 
+import com.company.Controller.DBUser;
+import com.company.Model.User;
 import javafx.application.Application;
-import javafx.scene.Scene;
-import javafx.scene.control.Button;
-import javafx.scene.layout.AnchorPane;
 import javafx.stage.Stage;
 
-public class Main extends Application {
+import java.sql.SQLException;
+import java.util.ArrayList;
 
-    public static void main(String[] args) {launch(args);}
+public class Main  {
 
-    @Override
-    public void start(Stage stage) throws  Exception {
-        //write code form here
+    public static void main(String[] args) throws SQLException {
+
+        System.out.println("It's WOrk!");
     }
+
+
 }
