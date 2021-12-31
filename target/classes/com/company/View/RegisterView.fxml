@@ -15,7 +15,7 @@
          <children>
             <ImageView fitHeight="68.0" fitWidth="69.0" layoutX="73.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../images/messenger.png" />
+                  <Image url="@images/messenger.png" />
                </image>
             </ImageView>
             <Label layoutX="56.0" layoutY="147.0" text="Messenger">
@@ -25,24 +25,24 @@
             </Label>
             <ImageView fitHeight="245.0" fitWidth="204.0" layoutX="5.0" layoutY="175.0" pickOnBounds="true" preserveRatio="true">
                <image>
-                  <Image url="@../../../../images/chat.png" />
+                  <Image url="@images/chat.png" />
                </image>
             </ImageView>
          </children>
       </AnchorPane>
       <AnchorPane prefHeight="400.0" prefWidth="370.0" style="-fx-background-color: #f5f4f2;">
          <children>
-            <TextField fx:id="tf_name" layoutX="44.0" layoutY="133.0" prefHeight="30.0" prefWidth="280.0" promptText="Name">
+            <TextField fx:id="tf_name" layoutX="44.0" layoutY="120.0" prefHeight="30.0" prefWidth="280.0" promptText="Name">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
             </TextField>
-            <TextField fx:id="tf_lastname" layoutX="44.0" layoutY="193.0" prefHeight="30.0" prefWidth="280.0" promptText="LastName">
+            <TextField fx:id="tf_lastname" layoutX="44.0" layoutY="163.0" prefHeight="30.0" prefWidth="280.0" promptText="LastName">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
             </TextField>
-            <TextField fx:id="tf_pass_word" layoutX="44.0" layoutY="252.0" prefHeight="30.0" prefWidth="280.0" promptText="Password">
+            <TextField fx:id="tf_pass_word" layoutX="44.0" layoutY="210.0" prefHeight="30.0" prefWidth="280.0" promptText="Password">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
@@ -67,11 +67,21 @@
                   <Font name="Californian FB" size="17.0" />
                </font>
             </Button>
-            <TextField fx:id="tf_user_name" layoutX="44.0" layoutY="76.0" prefHeight="30.0" prefWidth="280.0" promptText="UserName">
+            <TextField fx:id="tf_user_name" layoutX="44.0" layoutY="80.0" prefHeight="30.0" prefWidth="280.0" promptText="UserName">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
             </TextField>
+            <TextField fx:id="tf_pass_word1" layoutX="44.0" layoutY="255.0" prefHeight="30.0" prefWidth="280.0" promptText="Conform Password">
+               <font>
+                  <Font name="Arial Rounded MT Bold" size="16.0" />
+               </font>
+            </TextField>
+            <Label alignment="CENTER" layoutX="155.0" layoutY="43.0" text="Erorr" textFill="RED">
+               <font>
+                  <Font name="Berlin Sans FB" size="25.0" />
+               </font>
+            </Label>
          </children>
       </AnchorPane>
    </children>
