@@ -16,10 +16,10 @@ import java.util.ResourceBundle;
 public class LoginController  implements Initializable {
 
     @FXML
-    Button button_singup;
+    private Button button_singup;
 
     @FXML
-    Button button_login;
+    private Button button_login;
 
     static Stage registerStage = null; //we need open once
 
