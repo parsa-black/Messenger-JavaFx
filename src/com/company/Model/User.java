@@ -17,7 +17,7 @@ public class User {
         this.setUsername(username);
         this.setName(name);
         this.setLastname(lastname);
-        this.setPassword(password);
+        setPassword(password);
     }
 
     public static ArrayList<User> getAllUsers(){
@@ -59,7 +59,7 @@ public class User {
         this.setUsername(username);
         this.setName(name);
         this.setLastname(lastname);
-        this.setPassword(password);
+        setPassword(password);
     }
 
     public int getId() {
