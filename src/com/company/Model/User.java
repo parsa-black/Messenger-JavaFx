@@ -45,6 +45,15 @@ public class User {
         }
     }
 
+    public void delete(){
+        try {
+            DBUser.deleteUser(this);
+            id = -1;
+        }catch (SQLException e){
+            e.printStackTrace();
+        }
+    }
+
     public User(int id, String username, String name, String lastname, String password) {
         this.setId(id);
         this.setUsername(username);
