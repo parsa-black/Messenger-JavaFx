@@ -68,7 +68,7 @@
                   <Font name="Berlin Sans FB" size="25.0" />
                </font>
             </Label>
-            <Button fx:id="button_sing_up1" layoutX="80.0" layoutY="323.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="78.0" style="-fx-background-color: #cdd0d4;" text="Cancel">
+            <Button fx:id="button_cancel" layoutX="80.0" layoutY="323.0" mnemonicParsing="false" prefHeight="30.0" prefWidth="78.0" style="-fx-background-color: #cdd0d4;" text="Cancel">
                <font>
                   <Font name="Arial Rounded MT Bold" size="16.0" />
                </font>
