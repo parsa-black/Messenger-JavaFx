@@ -21,6 +21,9 @@ public class LoginController  implements Initializable {
     @FXML
     Button button_login;
 
+    static Stage registerStage = null; //we need open once
+
+
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
 
@@ -35,10 +38,13 @@ public class LoginController  implements Initializable {
     }
 
     private void openRegisterPage() throws IOException {
-        HBox root = FXMLLoader.load(this.getClass().getResource("../View/RegisterView.fxml"));
-        Stage stage = new Stage();
-        stage.setTitle("register user");
-        stage.setScene(new Scene(root));
-        stage.show();
+        if (registerStage  == null){
+            HBox root = FXMLLoader.load(this.getClass().getResource("../View/RegisterView.fxml"));
+            registerStage = new Stage();
+            registerStage.setTitle("register user");
+            registerStage.setScene(new Scene(root));
+            registerStage.show();
+        }
+
     }
 }
