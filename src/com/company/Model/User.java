@@ -43,7 +43,7 @@ public class User {
                 e.printStackTrace();
             }
         }
-    }
+    } //save => create or edit
 
     public void delete(){
         try {
