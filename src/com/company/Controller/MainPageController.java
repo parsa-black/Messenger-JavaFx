@@ -45,7 +45,7 @@ public class MainPageController implements Initializable {
 
     static Stage logoutStage = null;
 
-    static Stage stage ;
+    static Stage stage = null;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -70,20 +70,82 @@ public class MainPageController implements Initializable {
 
 
         chatBT.setOnAction(e -> {
-                AnchorPane root = null;
                 try {
-                    root = FXMLLoader.load(this.getClass().getResource("../View/ChatPageView.fxml"));
+                    if ( stage == null){
+                        AnchorPane root = FXMLLoader.load(this.getClass().getResource("../View/ChatPageView.fxml"));
+                        stage = new Stage();
+                        stage.setTitle("register user");
+                        stage.setScene(new Scene(root));
+                        stage.show();
+                    }
+
                 } catch (IOException ex) {
                     ex.printStackTrace();
                 }
-                stage = new Stage();
-                stage.setTitle("register user");
-                stage.setScene(new Scene(root));
-                stage.show();
 
         });
 
+        groupBT.setOnAction(e -> {
+            try {
+                if ( stage == null){
+                    AnchorPane root = FXMLLoader.load(this.getClass().getResource("../View/GroupPageView.fxml"));
+                    stage = new Stage();
+                    stage.setTitle("register user");
+                    stage.setScene(new Scene(root));
+                    stage.show();
+                }
+
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        });
+
+        channelBT.setOnAction(e ->{
+            try {
+                if ( stage == null){
+                    AnchorPane root = FXMLLoader.load(this.getClass().getResource("../View/ChanelPageView.fxml"));
+                    stage = new Stage();
+                    stage.setTitle("register user");
+                    stage.setScene(new Scene(root));
+                    stage.show();
+                }
+
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        });
+
+        contactBT.setOnAction(e ->{
+            try {
+                if ( stage == null){
+                    AnchorPane root = FXMLLoader.load(this.getClass().getResource("../View/ContactsPageView.fxml"));
+                    stage = new Stage();
+                    stage.setTitle("register user");
+                    stage.setScene(new Scene(root));
+                    stage.show();
+                }
+
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        });
+
+        settingBT.setOnAction(e -> {
+            try {
+                if ( stage == null){
+                    AnchorPane root = FXMLLoader.load(this.getClass().getResource("../View/SettingPageView.fxml"));
+                    stage = new Stage();
+                    stage.setTitle("register user");
+                    stage.setScene(new Scene(root));
+                    stage.show();
+                }
+
+            } catch (IOException ex) {
+                ex.printStackTrace();
+            }
+        });
 
     }
+
 
 }
