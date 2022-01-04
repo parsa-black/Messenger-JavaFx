@@ -1,6 +1,7 @@
 package com.company.Model;
 
 import com.company.Controller.DBUser;
+import com.company.Controller.MainPageController;
 
 import java.sql.SQLException;
 import java.util.ArrayList;
@@ -54,6 +55,8 @@ public class User {
         }
     }
 
+
+
     public User(int id, String username, String name, String lastname, String password) {
         this.setId(id);
         this.setUsername(username);
@@ -101,4 +104,5 @@ public class User {
     public void setPassword(String password) {
         this.password = password;
     }
+
 }

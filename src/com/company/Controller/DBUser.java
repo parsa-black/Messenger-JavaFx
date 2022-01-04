@@ -88,10 +88,11 @@ public class DBUser {
 
         statement.execute(String.format("update users set username = '%s' , name = '%s' ," +
                         " lastname = '%s' , password = '%s' where id = %d", user.getUsername(), user.getName()
-                , user.getLastname(), user.getPassword() , user.getId()));
+                , user.getLastname(), user.getPassword(), user.getId()));
 
         closeConnection();
 
     }
+
 
 }

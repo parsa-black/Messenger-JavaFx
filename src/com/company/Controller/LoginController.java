@@ -35,6 +35,7 @@ public class LoginController  implements Initializable {
     @FXML
     private Label checkLBL;
 
+
     static Stage registerStage = null; //we need open once
 
 
