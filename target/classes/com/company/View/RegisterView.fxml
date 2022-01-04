@@ -10,7 +10,7 @@
 
 <HBox maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="437.0" prefWidth="362.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.company.Controller.RegisterController">
    <children>
-      <AnchorPane prefHeight="447.0" prefWidth="362.0" style="-fx-background-color: #f5f4f2;">
+      <AnchorPane prefHeight="445.0" prefWidth="365.0" style="-fx-background-color: #f5f4f2;">
          <children>
             <TextField fx:id="tf_name" layoutX="44.0" layoutY="140.0" prefHeight="30.0" prefWidth="280.0" promptText="Name">
                <font>
