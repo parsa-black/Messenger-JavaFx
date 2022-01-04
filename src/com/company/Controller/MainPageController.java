@@ -7,6 +7,7 @@ import javafx.fxml.Initializable;
 import javafx.scene.Scene;
 import javafx.scene.control.Button;
 import javafx.scene.control.Label;
+import javafx.scene.layout.AnchorPane;
 import javafx.scene.layout.HBox;
 import javafx.stage.Stage;
 
@@ -24,9 +25,27 @@ public class MainPageController implements Initializable {
     private Button logoutBT;
 
     @FXML
+    private Button chatBT;
+
+    @FXML
+    private Button groupBT;
+
+    @FXML
+    private Button channelBT;
+
+    @FXML
+    private Button contactBT;
+
+    @FXML
+    private Button settingBT;
+
+
+    @FXML
      Label nameLBL;
 
-    static Stage registerStage = null;
+    static Stage logoutStage = null;
+
+    static Stage stage ;
 
     @Override
     public void initialize(URL url, ResourceBundle resourceBundle) {
@@ -37,16 +56,31 @@ public class MainPageController implements Initializable {
         logoutBT.setOnAction(e ->{
             ( (Stage) exitBT.getScene().getWindow() ).close();
             try {
-                if (registerStage  == null){
+                if (logoutStage  == null){
                     HBox root = FXMLLoader.load(this.getClass().getResource("../View/LoginView.fxml"));
-                    registerStage = new Stage();
-                    registerStage.setTitle("register user");
-                    registerStage.setScene(new Scene(root));
-                    registerStage.show();
+                    logoutStage = new Stage();
+                    logoutStage.setTitle("Go To LogInPage");
+                    logoutStage.setScene(new Scene(root));
+                    logoutStage.show();
                 }
             } catch (IOException ex) {
                 ex.printStackTrace();
             }
+        });
+
+
+        chatBT.setOnAction(e -> {
+                AnchorPane root = null;
+                try {
+                    root = FXMLLoader.load(this.getClass().getResource("../View/ChatPageView.fxml"));
+                } catch (IOException ex) {
+                    ex.printStackTrace();
+                }
+                stage = new Stage();
+                stage.setTitle("register user");
+                stage.setScene(new Scene(root));
+                stage.show();
+
         });
 
 

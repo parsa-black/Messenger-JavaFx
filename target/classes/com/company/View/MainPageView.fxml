@@ -24,7 +24,7 @@
       </ImageView>
       <VBox alignment="TOP_CENTER" layoutY="117.0" prefHeight="357.0" prefWidth="365.0" style="-fx-background-color: #cdd0d4;">
          <children>
-            <Button alignment="CENTER" contentDisplay="CENTER" minHeight="34.0" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #f5f4f2;" text="Chat" textAlignment="CENTER" textFill="#05aeff">
+            <Button fx:id="chatBT" alignment="CENTER" contentDisplay="CENTER" minHeight="34.0" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #f5f4f2;" text="Chat" textAlignment="CENTER" textFill="#05aeff">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
@@ -35,7 +35,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="151.0" layoutY="10.0" minHeight="34.0" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #f5f4f2;" text="Gorup" textAlignment="CENTER" textFill="#05aeff">
+            <Button fx:id="groupBT" alignment="CENTER" contentDisplay="CENTER" layoutX="151.0" layoutY="10.0" minHeight="34.0" mnemonicParsing="false" prefWidth="100.0" style="-fx-background-color: #f5f4f2;" text="Gorup" textAlignment="CENTER" textFill="#05aeff">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
@@ -46,7 +46,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="151.0" layoutY="44.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #f5f4f2;" text="Chanel" textAlignment="CENTER" textFill="#05aeff">
+            <Button fx:id="channelBT" alignment="CENTER" contentDisplay="CENTER" layoutX="151.0" layoutY="44.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #f5f4f2;" text="Channel" textAlignment="CENTER" textFill="#05aeff">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
@@ -57,7 +57,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="151.0" layoutY="78.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #f5f4f2;" text="Content" textAlignment="CENTER" textFill="#05aeff">
+            <Button fx:id="contactBT" alignment="CENTER" contentDisplay="CENTER" layoutX="151.0" layoutY="78.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #f5f4f2;" text="Contact" textAlignment="CENTER" textFill="#05aeff">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
@@ -68,7 +68,7 @@
                   <Cursor fx:constant="HAND" />
                </cursor>
             </Button>
-            <Button alignment="CENTER" contentDisplay="CENTER" layoutX="151.0" layoutY="112.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #f5f4f2;" text="Setting" textAlignment="CENTER" textFill="#211bcf">
+            <Button fx:id="settingBT" alignment="CENTER" contentDisplay="CENTER" layoutX="151.0" layoutY="112.0" mnemonicParsing="false" prefHeight="34.0" prefWidth="100.0" style="-fx-background-color: #f5f4f2;" text="Setting" textAlignment="CENTER" textFill="#211bcf">
                <font>
                   <Font name="Arial Rounded MT Bold" size="18.0" />
                </font>
@@ -103,5 +103,10 @@
             </Button>
          </children>
       </VBox>
+      <Label fx:id="nameLBL" alignment="CENTER" layoutX="3.0" layoutY="82.0" prefHeight="28.0" prefWidth="365.0">
+         <font>
+            <Font name="Berlin Sans FB" size="23.0" />
+         </font>
+      </Label>
    </children>
 </AnchorPane>
