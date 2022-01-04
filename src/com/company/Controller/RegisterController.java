@@ -106,6 +106,7 @@ public class RegisterController  implements Initializable {
         tf_pass_word.setText("");
         tf_pass_word_2.setText("");
         errorLBL.setText("");
+        button_cancel.setText("Close");
     }
 
 }
