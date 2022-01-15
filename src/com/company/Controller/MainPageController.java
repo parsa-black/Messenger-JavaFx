@@ -53,6 +53,7 @@ public class MainPageController implements Initializable {
 
         exitBT.setOnAction(e -> ( (Stage) exitBT.getScene().getWindow() ).close());
 
+
         logoutBT.setOnAction(e ->{
             ( (Stage) exitBT.getScene().getWindow() ).close();
             try {

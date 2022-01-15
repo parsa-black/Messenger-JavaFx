@@ -8,6 +8,9 @@ import java.util.ArrayList;
 
 public class DBUser {
 
+    static final String DB_URL = "jdbc:mysql://localhost:3306/javafx-project";
+    static final String USER = "root";
+    static final String PASS = "parsagorgzan1225@gmail";
     private static Connection connection;
     private static Statement statement;
 
@@ -92,6 +95,22 @@ public class DBUser {
 
         closeConnection();
 
+    }
+
+    public void showUser() {
+        try (Connection conn = DriverManager.getConnection(DB_URL, USER, PASS);
+             Statement stmt = conn.createStatement();
+             ResultSet rs = stmt.executeQuery("SELECT id , username , name , lastname FROM users");) {
+
+            while (rs.next()) {
+                System.out.print("ID: " + rs.getInt("id"));
+                System.out.print("ID: " + rs.getString("username"));
+                System.out.print("ID: " + rs.getString("name"));
+                System.out.print("ID: " + rs.getString("lastname"));
+            }
+        } catch (SQLException e) {
+            e.printStackTrace();
+        }
     }
 
 
